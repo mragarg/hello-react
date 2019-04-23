@@ -6,13 +6,14 @@ import React from 'react';
 // const React = require('react');
 
 // #3 Declare your component
-function Greet() {
+function Greet(props) {
+    // Every component must return a React Element. 
     return (
 
         <h1>
-            Hello You! 
+            Hello {props.whom}! 
         </h1>
-        
+
     );
 }
 
