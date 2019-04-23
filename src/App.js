@@ -17,11 +17,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <ClickyCounter />
+        <ClickyCounter startAt={999999999}/>
         <Counter />
         <ClickyCounter />
         <Counter />
         <ClickyCounter />
+
         <Counter />
         <Counter />
         <Greet />
