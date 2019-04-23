@@ -4,6 +4,7 @@ import logo from './logo.svg'; // Import an image. (React will do optimizations.
 import './App.css';
 
 import Greet from './Greet';
+import Counter from './Counter';
 
 
 // "App" is a component.
@@ -15,7 +16,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <Counter />
+        <Counter />
+        <Counter />
+        <Counter />
         <Greet />
+        {/* This is a comment in JSX */}
         <Greet whom='Oakley'/>
         <Greet whom='Milla'/>
         <a
