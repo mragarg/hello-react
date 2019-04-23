@@ -11,7 +11,7 @@ function Greet(props) {
     return (
 
         <h1>
-            Hello {props.whom}! 
+            Hello {props.whom ? props.whom : "You"}! 
         </h1>
 
     );
