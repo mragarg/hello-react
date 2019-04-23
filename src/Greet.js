@@ -6,7 +6,9 @@ import React from 'react';
 // const React = require('react');
 
 // #3 Declare your component
-
+function Greet() {
+    
+}
 
 
 
