@@ -7,7 +7,13 @@ import React from 'react';
 
 // #3 Declare your component
 function Greet() {
-    
+    return (
+
+        <h1>
+            Hello You! 
+        </h1>
+        
+    );
 }
 
 
