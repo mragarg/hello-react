@@ -5,13 +5,17 @@ import React from 'react';
 // If we were doing Node, we would have written
 // const React = require('react');
 
+function excitedName(aName) {
+    return aName.toUpperCase();
+}
+
 // #3 Declare your component
 function Greet(props) {
     // Every component must return a React Element. 
     return (
 
         <h1>
-            Hello {props.whom ? props.whom : "You"}! 
+            Hello {props.whom ? excitedName(props.whom) : "You"}! 
         </h1>
 
     );
