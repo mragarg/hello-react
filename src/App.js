@@ -1,7 +1,12 @@
+
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// "App" is a component.
+// A component is a function that returns a React Element
+// A react Element is a description of a DOM element (or tree).
+// The most common way to specify a React Element is by using JSX. 
 function App() {
   return (
     <div className="App">
