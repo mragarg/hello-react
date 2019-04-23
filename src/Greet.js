@@ -19,3 +19,6 @@ import React from 'react';
 
 
 // #2 Export your component
+export default Greet; // Make the component name match the file name. 
+// By 'default', if someone imports from Greet.js, they should
+// receive our Greet component.
