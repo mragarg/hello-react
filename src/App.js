@@ -1,7 +1,10 @@
 
 import React from 'react';
-import logo from './logo.svg';
+import logo from './logo.svg'; // Import an image. (React will do optimizations.)
 import './App.css';
+
+import Greet from './Greet';
+
 
 // "App" is a component.
 // A component is a function that returns a React Element
