@@ -5,6 +5,7 @@ import './App.css';
 
 import Greet from './Greet';
 import Counter from './Counter';
+import ClickyCounter from './ClickyCounter';
 
 
 // "App" is a component.
@@ -16,14 +17,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <ClickyCounter />
         <Counter />
+        <ClickyCounter />
         <Counter />
+        <ClickyCounter />
         <Counter />
         <Counter />
         <Greet />
         {/* This is a comment in JSX */}
-        <Greet whom='Oakley'/>
-        <Greet whom='Milla'/>
+        <Greet whom='Ashish'/>
         <a
           className="App-link"
           href="https://reactjs.org"
